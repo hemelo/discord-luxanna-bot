@@ -1,2 +1,6 @@
 import { Command } from "@types";
-export const Commands: Command[] = [];
+import { AskGpt } from "./gpt.command";
+
+export { AskGpt } from "./gpt.command";
+
+export const Commands: Command[] = [AskGpt];
